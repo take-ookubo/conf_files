@@ -1,0 +1,18 @@
+/*
+On OS X, basic text manipulations (left, right, command+left, etc) make use of the system key bindings,
+and don't need to be repeated here. Anything listed here will take precedence, however.
+*/
+[
+	{ "keys": ["option+command+enter"], "command": "open_url_under_cursor" },
+	{ "keys": ["ctrl+shift+k"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["ctrl+shift+j"], "command": "select_lines", "args": {"forward": true} },
+	{ "keys": ["ctrl+l"], "command": "move", "args": {"by": "characters", "forward": true } },
+	{ "keys": ["ctrl+h"], "command": "move", "args": {"by": "characters", "forward": false } },
+	{ "keys": ["ctrl+j"], "command": "move", "args": {"by": "lines", "forward": true } },
+	{ "keys": ["ctrl+k"], "command": "move", "args": {"by": "lines", "forward": false } },
+	{ "keys": ["ctrl+alt+h"], "command": "move", "args": {"by": "subwords", "forward": false} },
+	{ "keys": ["ctrl+alt+l"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+	{ "keys": ["ctrl+alt+shift+h"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+	{ "keys": ["ctrl+alt+shift+l"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+	{ "keys": ["command+b"], "command": "goto_definition" }
+]
