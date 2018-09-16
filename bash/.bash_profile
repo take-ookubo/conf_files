@@ -37,6 +37,7 @@ alias s=ssh
 alias ssh-ignorekey='ssh -oUserKnownHostsFile=/dev/null -oStrictHostKeyChecking=no'
 alias sublime='open -a /Applications/Sublime\ Text.app'
 alias excel='open -a /Applications/Microsoft\ Excel.app'
+alias mydump='mysqldump -u root --quote-names --flush-logs --add-drop-table --add-locks --create-options --disable-keys --extended-insert --lock-tables --quick --set-charset '
 
 # 2015/06/04 Add for brew search
 if [ -f e/.brew_github_api_token ];then
