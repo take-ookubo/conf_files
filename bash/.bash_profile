@@ -39,6 +39,8 @@ alias ssh-ignorekey='ssh -oUserKnownHostsFile=/dev/null -oStrictHostKeyChecking=
 alias sublime='open -a /Applications/Sublime\ Text.app'
 alias excel='open -a /Applications/Microsoft\ Excel.app'
 alias mydump='mysqldump -u root --quote-names --flush-logs --add-drop-table --add-locks --create-options --disable-keys --extended-insert --lock-tables --quick --set-charset applepie_api_development'
+alias r='bin/rails'
+alias rk='bin/rake'
 
 
 # 2019/04/18 Modify name for brew and github token
