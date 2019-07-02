@@ -1,2 +1,0 @@
-export HOMEBREW_GITHUB_API_TOKEN='https://github.com/settings/tokens から Personal access tokens を生成して設定する'
-export GITLAB_TOKEN='https://github.com/settings/tokens から Personal access tokens を生成して設定する'

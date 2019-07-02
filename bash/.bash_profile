@@ -49,11 +49,6 @@ alias r='bin/rails'
 alias rk='bin/rake'
 
 
-# 2019/04/18 Modify name for brew and github token
-if [ -f e/.api_token ];then
-  source ~/.api_token
-fi
-
 # 2017/04/18 Add by anyenv
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
