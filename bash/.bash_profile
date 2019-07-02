@@ -3,6 +3,11 @@ if [ -f ~/.git-prompt.sh ]; then
   source ~/.git-prompt.sh
 fi
 
+# Loading dotenv
+if [ -f ~/.env ]; then
+  eval "$(cat ~/.env <(echo) <(declare -x))"
+fi
+
 # 2019/04/20 add the 'gp' command.
 PS1="\[\033[0;35m\][\u@\h \W\$(__git_ps1)]\\$\[\033[0m\] "
 HISTSIZE=500000
@@ -38,7 +43,8 @@ alias s=ssh
 alias ssh-ignorekey='ssh -oUserKnownHostsFile=/dev/null -oStrictHostKeyChecking=no'
 alias sublime='open -a /Applications/Sublime\ Text.app'
 alias excel='open -a /Applications/Microsoft\ Excel.app'
-alias mydump='mysqldump -u root --quote-names --flush-logs --add-drop-table --add-locks --create-options --disable-keys --extended-insert --lock-tables --quick --set-charset applepie_api_development'
+alias mydump='mysqldump -u root --quote-names --flush-logs --add-drop-table --add-locks --create-options --disable-keys --extended-insert --lock-tables --quick --set-charset ${LOCAL_DB}'
+alias myimport='mysql -u root --default-character-set=binary -h localhost ${LOCAL_DB}'
 alias r='bin/rails'
 alias rk='bin/rake'
 
