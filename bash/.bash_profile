@@ -5,7 +5,7 @@ fi
 
 # Loading dotenv
 if [ -f ~/.env ]; then
-  eval "$(cat ~/.env <(echo) <(declare -x))"
+  eval "export $(cat ~/.env <(echo) <(declare -x))"
 fi
 
 # 2019/04/20 add the 'gp' command.
@@ -56,14 +56,6 @@ eval "$(anyenv init -)"
 #    export WORKON_HOME=$HOME/.virtualenvs
 #    source ~/.anyenv/envs/pyenv/shims/virtualenvwrapper.sh
 #fi
-
-# 2017/04/18 brew path
-export PATH="$PATH:/usr/local/bin"
-export PATH="`brew --prefix openssl`/bin:$PATH"
-export PATH="`brew --prefix mysql@5.7`/bin:$PATH"
-
-# 2017/4/26 Add rust
-export PATH="$HOME/.cargo/bin:$PATH"
 
 # 2018/01/23 Add google cloud console
 source /projects/google/google-cloud-sdk/completion.bash.inc
