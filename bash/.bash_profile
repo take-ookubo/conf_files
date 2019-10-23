@@ -55,10 +55,6 @@ alias rs=bin/rspec
 # 2017/04/18 Add by anyenv
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
-#if [ -f ~/.anyenv/envs/pyenv/shims/virtualenvwrapper.sh ]; then
-#    export WORKON_HOME=$HOME/.virtualenvs
-#    source ~/.anyenv/envs/pyenv/shims/virtualenvwrapper.sh
-#fi
 
 # 2018/01/23 Add google cloud console
 source /projects/google/google-cloud-sdk/completion.bash.inc
