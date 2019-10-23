@@ -48,9 +48,9 @@ alias sublime='open -a /Applications/Sublime\ Text.app'
 alias excel='open -a /Applications/Microsoft\ Excel.app'
 alias mydump='mysqldump -u root --quote-names --flush-logs --add-drop-table --add-locks --create-options --disable-keys --extended-insert --lock-tables --quick --set-charset ${LOCAL_DB}'
 alias myimport='mysql -u root --default-character-set=binary -h localhost ${LOCAL_DB}'
-alias r='bin/rails'
-alias rk='bin/rake'
-
+alias r=bin/rails
+alias rk=bin/rake
+alias rs=bin/rspec
 
 # 2017/04/18 Add by anyenv
 export PATH="$HOME/.anyenv/bin:$PATH"
@@ -63,3 +63,6 @@ eval "$(anyenv init -)"
 # 2018/01/23 Add google cloud console
 source /projects/google/google-cloud-sdk/completion.bash.inc
 source /projects/google/google-cloud-sdk/path.bash.inc
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR=~/.sdkman
+[[ -s ~/.sdkman/bin/sdkman-init.sh ]] && source ~/.sdkman/bin/sdkman-init.sh
