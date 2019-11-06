@@ -5,7 +5,7 @@ fi
 
 # Loading dotenv
 if [ -f ~/.env ]; then
-  eval "export $(cat ~/.env <(echo) <(declare -x))"
+  set -a; eval "$(cat .env <(echo) <(declare -x))"; set +a;
 fi
 
 # 2019/04/20 add the 'gp' command.
