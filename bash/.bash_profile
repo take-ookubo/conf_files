@@ -59,6 +59,7 @@ eval "$(anyenv init -)"
 # 2018/01/23 Add google cloud console
 source /projects/google/google-cloud-sdk/completion.bash.inc
 source /projects/google/google-cloud-sdk/path.bash.inc
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR=~/.sdkman
 [[ -s ~/.sdkman/bin/sdkman-init.sh ]] && source ~/.sdkman/bin/sdkman-init.sh
