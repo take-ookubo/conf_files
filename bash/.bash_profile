@@ -37,10 +37,16 @@ alias w=watch
 alias wcl='wc -l'
 alias i=irb
 alias g=git
-alias gp="git nc; git push"
+alias ga='git add'
+alias gc='git commit'
+alias gd='git diff'
+alias gs='git status'
+alias gst='git stash'
+alias gl='git log'
+alias gp="git pull"
 alias gch='git checkout master'
 alias gchd='git checkout develop'
-alias gpu='git pull'
+alias gpu='git push'
 alias gr=gradle
 alias s=ssh
 alias ssh-ignorekey='ssh -oUserKnownHostsFile=/dev/null -oStrictHostKeyChecking=no'
@@ -56,9 +62,13 @@ alias rs=bin/rspec
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
 
-# 2018/01/23 Add google cloud console
-source /projects/google/google-cloud-sdk/completion.bash.inc
-source /projects/google/google-cloud-sdk/path.bash.inc
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '~/google-cloud-sdk/path.bash.inc' ]; then . '~/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '~/google-cloud-sdk/completion.bash.inc' ]; then . '~/google-cloud-sdk/completion.bash.inc'; fi
+
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR=~/.sdkman

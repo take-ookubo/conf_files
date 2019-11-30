@@ -20,6 +20,7 @@ alias w=watch
 alias wcl='wc -l'
 alias i=irb
 alias g=git
+alias ga='git add -p'
 alias gc='git commit'
 alias gd='git diff'
 alias gs='git status'
@@ -28,7 +29,7 @@ alias gl='git log'
 alias gp="git pull"
 alias gch='git checkout master'
 alias gchd='git checkout develop'
-alias gpu='git pull'
+alias gpu='git push'
 alias s=ssh
 alias ssh-ignorekey='ssh -oUserKnownHostsFile=/dev/null -oStrictHostKeyChecking=no'
 alias sublime='open -a /Applications/Sublime\ Text.app'
@@ -37,3 +38,6 @@ alias mydump='mysqldump -u root --quote-names --flush-logs --add-drop-table --ad
 alias myimport='mysql -u root --default-character-set=binary -h localhost {$LOCAL_DB}'
 alias r='bin/rails'
 alias rk='bin/rake'
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '~/google-cloud-sdk/path.fish.inc' ]; . '~/google-cloud-sdk/path.fish.inc'; end
