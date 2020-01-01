@@ -21,6 +21,7 @@ alias wcl='wc -l'
 alias i=irb
 alias g=git
 alias ga='git add -p'
+alias gb='git branch'
 alias gc='git commit'
 alias gd='git diff'
 alias gs='git status'
@@ -40,4 +41,4 @@ alias r='bin/rails'
 alias rk='bin/rake'
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '~/google-cloud-sdk/path.fish.inc' ]; . '~/google-cloud-sdk/path.fish.inc'; end
+if [ -f ~/google-cloud-sdk/path.fish.inc ]; . ~/google-cloud-sdk/path.fish.inc; end
