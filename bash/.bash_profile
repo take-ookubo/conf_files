@@ -5,7 +5,7 @@ fi
 
 # Loading dotenv
 if [ -f ~/.env ]; then
-  set -a; eval "$(cat .env <(echo) <(declare -x))"; set +a;
+  set -a; eval "$(cat ~/.env <(echo) <(declare -x))"; set +a;
 fi
 
 # 2019/04/20 add the 'gp' command.
@@ -62,14 +62,9 @@ alias rs=bin/rspec
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
 
-
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '~/google-cloud-sdk/path.bash.inc' ]; then . '~/google-cloud-sdk/path.bash.inc'; fi
+if [ -f ~/google-cloud-sdk/path.bash.inc ]; then . ~/google-cloud-sdk/path.bash.inc; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '~/google-cloud-sdk/completion.bash.inc' ]; then . '~/google-cloud-sdk/completion.bash.inc'; fi
-
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR=~/.sdkman
-[[ -s ~/.sdkman/bin/sdkman-init.sh ]] && source ~/.sdkman/bin/sdkman-init.sh
+if [ -f ~/google-cloud-sdk/completion.bash.inc ]; then . ~/google-cloud-sdk/completion.bash.inc; fi
+	
