@@ -33,6 +33,7 @@ alias ll='ls -aAlpotr'
 alias t='tail -f'
 alias tailf='tail -f'
 alias v=vim
+alias va=vagrant
 alias w=watch
 alias wcl='wc -l'
 alias i=irb
