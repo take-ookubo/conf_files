@@ -63,7 +63,7 @@ alias rs=bin/rspec
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
 
-export PATH="$PATH:/usr/local/bin:`brew --prefix openssl`/bin:`brew --prefix mysql@5.7`/bin:$HOME/.cargo/bin:$GOPATH/bin"
+export PATH="$PATH:/usr/local/sbin:/usr/local/bin:`brew --prefix openssl`/bin:$HOME/.cargo/bin:$GOPATH/bin"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f ~/google-cloud-sdk/path.bash.inc ]; then . ~/google-cloud-sdk/path.bash.inc; fi
