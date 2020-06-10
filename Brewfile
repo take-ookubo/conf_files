@@ -8,8 +8,8 @@ cask alfred
 cask google-japanese-ime
 cask clipy
 cask microsoft-office
-appstore 986304488 "Kiwi for Gmail"
-appstore 905155357 "Cybozu Desktop"
+mas 'Kiwi for Gmail', id: 986304488
+#appstore 905155357 "Cybozu Desktop"
 #cask gyazo
 
 ## Remote client tools
@@ -22,7 +22,7 @@ cask vnc-viewer
 cask slack
 cask chatwork
 cask zoomus
-appstore 539883307 LINE
+#appstore 539883307 LINE
 
 # Web browseres
 
@@ -41,7 +41,7 @@ cask github
 
 # Developer tools
 
-appstore 497799835 Xcode (11.5)
+mas Xcode, id: 497799835
 
 ## CLI tools
 
@@ -57,7 +57,7 @@ cask awscli
 cask sublime-text
 cask jetbrains-toolbox
 cask visual-studio-code
-appstore 896624060 Kobito
+mas Kobito, id: 896624060
 
 
 ## Database tools
