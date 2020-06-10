@@ -8,8 +8,8 @@ cask alfred
 cask google-japanese-ime
 cask clipy
 cask microsoft-office
-appstore 986304488 Kiwi for Gmail
-appstore 905155357 Cybozu Desktop
+appstore 986304488 "Kiwi for Gmail"
+appstore 905155357 "Cybozu Desktop"
 #cask gyazo
 
 ## Remote client tools
