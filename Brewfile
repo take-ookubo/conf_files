@@ -1,6 +1,7 @@
-tap 'caskroom/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
+tap "homebrew/cask"
+tap "heroku/brew"
 
 # Productivity tools
 
@@ -41,7 +42,7 @@ cask 'github'
 
 # Developer tools
 
-mas Xcode, id: 497799835
+mas 'Xcode', id: 497799835
 
 ## CLI tools
 
@@ -51,13 +52,14 @@ brew 'tmux-xpanes'
 
 cask 'google-cloud-sdk'
 cask 'awscli'
+brew "heroku/brew/heroku"
 
 # Edidor tools
 
 cask 'sublime-text'
 cask 'jetbrains-toolbox'
 cask 'visual-studio-code'
-mas Kobito, id: 896624060
+mas 'Kobito', id: 896624060
 
 
 ## Database tools
