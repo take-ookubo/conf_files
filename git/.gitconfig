@@ -1,6 +1,6 @@
 [user]
 	name = take ookubo
-#	email = 
+	email = xxxxx@example.com
 [core]
 	excludesfile = ~/.gitignore_global
 [http]
@@ -36,7 +36,7 @@
 	default = simple
 [github]
 	user = take-ookubo
-#	token = 
+	token = XXXXXX_TOKEN_EXAMPLE
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
