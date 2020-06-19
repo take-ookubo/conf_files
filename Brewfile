@@ -1,6 +1,7 @@
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "heroku/brew"
 
 # Productivity tools
@@ -8,10 +9,12 @@ tap "heroku/brew"
 cask 'alfred'
 cask 'google-japanese-ime'
 cask 'clipy'
-cask 'microsoft-office'
-mas 'Kiwi for Gmail', id: 986304488
-mas 'Cybozu Desktop', id: 905155357
 #cask 'gyazo'
+
+# Office tools
+cask 'microsoft-office'
+mas 'Cybozu Desktop', id: 905155357
+mas 'Kiwi for Gmail', id: 986304488
 
 ## Remote client tools
 cask 'teamviewer'
@@ -35,7 +38,6 @@ cask 'waterfox'
 cask 'iridium'
 cask 'coccoc'
 cask 'microsoft-edge'
-cask 'brave'
 cask 'opera'
 cask 'sleipnir'
 cask 'github'
@@ -47,11 +49,12 @@ mas 'Xcode', id: 497799835
 ## CLI tools
 
 cask 'iterm2'
+brew 'git'
 brew 'anyenv'
 brew 'tmux-xpanes'
 
 cask 'google-cloud-sdk'
-cask 'awscli'
+brew 'awscli'
 brew "heroku/brew/heroku"
 
 # Edidor tools
@@ -77,9 +80,9 @@ brew 'docker-compose'
 
 ## Develop Library tools
 
-# brew 'zlib'
-# brew 'autoconf'
-# brew 'bzip2'
+brew 'zlib'
+brew 'autoconf'
+brew 'bzip2'
 # brew 'icu4c'
 # brew 'krb5'
 # brew 'libedit'
@@ -90,12 +93,32 @@ brew 'docker-compose'
 # brew 'libxml2'
 # brew 'libzip'
 # brew 'oniguruma'
-# brew 'openssl@1.1'
-# brew 'pkg-config'
+brew 'openssl@1.1'
 # brew 'tidy-html5'
+brew "nkf"
+brew "fswatch"
+brew "htop"
+brew "pstree"
+brew "tree"
+
+## Network tools
+brew "wget"
+brew "nmap"
+brew "inetutils"
 
 # Authoring tools
 
 #cask 'gimp'
 #cask 'handbrake'
 #cask 'vlc'
+
+# Credential management tools
+brew "lastpass-cli"
+mas "LastPass", id: 926036361
+
+# Book virwer
+cask "kindle"
+cask "yacreader"
+
+# etc tools
+mas "The Unarchiver", id: 425424353
