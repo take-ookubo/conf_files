@@ -7,13 +7,18 @@ function backup() {
   fi
 }
 
+read -p "input email: xxxxx@example.com > " email
+read -p "input github token: XXXXXX_TOKEN_EXAMPLE > " github_token
+
 # Setup ~/.git***
 echo "Setup ~/.git***"
 backup ~/.gitconfig
 backup ~/.git-prompt.sh
 backup ~/.gitignore_global
 
-ln -s `pwd`/git/.gitconfig ~/.gitconfig
+cp `pwd`/git/.gitconfig ~/.gitconfig
+sed -i ""  "s|xxxxx@example.com|${email}|g" ~/.gitconfig
+sed -i ""  "s|XXXXXX_TOKEN_EXAMPLE|${github_token}|g" ~/.gitconfig
 ln -s `pwd`/git/.git-prompt.sh ~/.git-prompt.sh
 ln -s `pwd`/git/.gitignore_global ~/.gitignore_global
 
