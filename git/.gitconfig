@@ -15,7 +15,6 @@
 	a = add -p
 	b = branch -vv
 	d = diff
-	d-c = diff --cached
 	c = commit
 	ch = checkout
 	cl = clone
@@ -44,3 +43,5 @@
 	required = true
 [commit]
 	template = ~/.stCommitMsg
+[pull]
+	rebase = false
