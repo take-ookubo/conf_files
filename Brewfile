@@ -58,12 +58,13 @@ cask 'google-cloud-sdk'
 brew 'awscli'
 brew "heroku/brew/heroku"
 
+cask 'sourcetree'
+
 # Edidor tools
 
 cask 'sublime-text'
 cask 'jetbrains-toolbox'
 cask 'visual-studio-code'
-cask 'sourcetree'
 
 ## Database tools
 
@@ -116,7 +117,7 @@ brew "inetutils"
 brew "lastpass-cli"
 mas "LastPass", id: 926036361
 
-# Book virwer
+# Book viewer
 cask "kindle"
 cask "yacreader"
 
