@@ -54,3 +54,7 @@ if [ -L `brew --prefix anyenv` ]; then
   anyenv install nodenv
   exec $SHELL -l
 fi
+
+if [ -f `pwd`/Brewfile ]; then
+  brew bundle
+fi
