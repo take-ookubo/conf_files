@@ -7,14 +7,14 @@ function backup() {
   fi
 }
 
-read -p "input email: xxxxx@example.com > " email
-read -p "input github token: XXXXXX_TOKEN_EXAMPLE > " github_token
-
 # Setup ~/.git***
 echo "Setup ~/.git***"
 backup ~/.gitconfig
 backup ~/.git-prompt.sh
 backup ~/.gitignore_global
+
+read -p "Enter github email: xxxxx@example.com > " email
+read -p "Enter github token: XXXXXX_TOKEN_EXAMPLE > " github_token
 
 cp `pwd`/git/.gitconfig ~/.gitconfig
 sed -i ""  "s|xxxxx@example.com|${email}|g" ~/.gitconfig
@@ -44,6 +44,14 @@ if [ ! -L `brew --prefix anyenv` ]; then
   brew install anyenv
   anyenv init
   anyenv install --init
+  exec $SHELL -l
+fi
+
+if [ -L `brew --prefix anyenv` ]; then
+  anyenv install rbenv
+  anyenv install pyenv
+  anyenv install phpenv
+  anyenv install nodenv
   exec $SHELL -l
 fi
 
