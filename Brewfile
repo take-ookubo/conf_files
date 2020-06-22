@@ -9,7 +9,7 @@ tap "heroku/brew"
 cask 'alfred'
 cask 'google-japanese-ime'
 cask 'clipy'
-#cask 'gyazo'
+cask 'gyazo'
 
 # Office tools
 cask 'microsoft-office'
@@ -38,6 +38,7 @@ cask 'waterfox'
 cask 'iridium'
 cask 'coccoc'
 cask 'microsoft-edge'
+cask 'brave-browser'
 cask 'opera'
 cask 'sleipnir'
 cask 'github'
@@ -62,8 +63,7 @@ brew "heroku/brew/heroku"
 cask 'sublime-text'
 cask 'jetbrains-toolbox'
 cask 'visual-studio-code'
-mas 'Kobito', id: 896624060
-
+cask 'sourcetree'
 
 ## Database tools
 
