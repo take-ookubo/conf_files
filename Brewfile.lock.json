@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "4b9a95355a4784a6839821ec58467f8e1ed96ad7"
+        "revision": "a4236840079d4d9ad29c553bb02910b90cc93d50"
       },
       "homebrew/core": {
-        "revision": "a66a00db0889f1f323db5d3bbe26fcfc7282840b"
+        "revision": "c358c3d4c0999cc2045bdbc5c2db7f30e93818a1"
       },
       "homebrew/cask": {
-        "revision": "292419e396512d361c47d7d9cdbbd0c7227db21d"
+        "revision": "c55017377327581b259bc58c070e20cb7e565833"
       },
       "heroku/brew": {
         "revision": "2fbdd513b72119e373505ef0c9047a8090cae7d6"
       },
       "homebrew/cask-versions": {
-        "revision": "f8c39779583dbe41cd247a8efccbfe7877ff3900"
+        "revision": "79fdb85eb2ce6cb64bfaefe6d4bd6f91def41009"
       }
     },
     "cask": {
@@ -91,7 +91,7 @@
         }
       },
       "vivaldi": {
-        "version": "3.1.1929.34",
+        "version": "3.1.1929.40",
         "options": {
           "full_name": "vivaldi"
         }
@@ -121,13 +121,13 @@
         }
       },
       "microsoft-edge": {
-        "version": "83.0.478.50",
+        "version": "83.0.478.54",
         "options": {
           "full_name": "microsoft-edge"
         }
       },
       "opera": {
-        "version": "68.0.3618.165",
+        "version": "68.0.3618.173",
         "options": {
           "full_name": "opera"
         }
@@ -169,7 +169,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.46.0",
+        "version": "1.46.1",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -705,8 +705,8 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.4.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "a66a00db0889f1f323db5d3bbe26fcfc7282840b",
-        "CLT": "1103.0.32.62",
+        "Homebrew/homebrew-core": "c358c3d4c0999cc2045bdbc5c2db7f30e93818a1",
+        "CLT": "11.5.0.0.1.1588476445",
         "Xcode": "11.5",
         "macOS": "10.15.5"
       }
