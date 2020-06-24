@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "a4236840079d4d9ad29c553bb02910b90cc93d50"
+        "revision": "2c0f6116b1f5c5e3cb95c24db51ea93861694007"
       },
       "homebrew/core": {
-        "revision": "c358c3d4c0999cc2045bdbc5c2db7f30e93818a1"
+        "revision": "d2bc38e9cb5f59a704cc3e8b9a2720b064a307a9"
       },
       "homebrew/cask": {
-        "revision": "c55017377327581b259bc58c070e20cb7e565833"
+        "revision": "bc305e384e958b4e43357b9a51e55b169a8c0b34"
       },
       "heroku/brew": {
         "revision": "2fbdd513b72119e373505ef0c9047a8090cae7d6"
       },
       "homebrew/cask-versions": {
-        "revision": "79fdb85eb2ce6cb64bfaefe6d4bd6f91def41009"
+        "revision": "40366b929dd6b9401015334f446a09e04d6f1971"
       }
     },
     "cask": {
@@ -37,7 +37,7 @@
         }
       },
       "microsoft-office": {
-        "version": "16.37.20051002",
+        "version": "16.38.20061401",
         "options": {
           "full_name": "microsoft-office"
         }
@@ -79,7 +79,7 @@
         }
       },
       "google-chrome": {
-        "version": "83.0.4103.106",
+        "version": "83.0.4103.116",
         "options": {
           "full_name": "google-chrome"
         }
@@ -175,7 +175,7 @@
         }
       },
       "dbeaver-community": {
-        "version": "7.1.0",
+        "version": "7.1.1",
         "options": {
           "full_name": "dbeaver-community"
         }
@@ -226,6 +226,12 @@
         "version": "3.8.0",
         "options": {
           "full_name": "gyazo"
+        }
+      },
+      "adoptopenjdk8": {
+        "version": "8,252:b09",
+        "options": {
+          "full_name": "adoptopenjdk8"
         }
       }
     },
@@ -311,22 +317,22 @@
         "bottle": false
       },
       "awscli": {
-        "version": "2.0.24",
+        "version": "2.0.25",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.24.catalina.bottle.tar.gz",
-              "sha256": "c23c654c90fffc6c87a76870b2c59edc0cb4dfcd5903fa7c3224a11815c05321"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.25.catalina.bottle.tar.gz",
+              "sha256": "663ffc0197f4edbbe5f351f67d071a7ca4848be8a01fea5f99dd9d14558f3a7c"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.24.mojave.bottle.tar.gz",
-              "sha256": "44cd4c238ccce2f636c422b0e6794cb888411a12f545a28f0cd54fcd3ca4ac27"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.25.mojave.bottle.tar.gz",
+              "sha256": "d65c65c39cbe4a8ac20c175cc5b8cc8180dcc3fe96e55069b7fc8d890129f368"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.24.high_sierra.bottle.tar.gz",
-              "sha256": "c7df96f9e8084e161d36498611e6a2d741f8ce65003a5c58a4a182a5b28cec2b"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.25.high_sierra.bottle.tar.gz",
+              "sha256": "b8640bf289cd48d59fea766ede54ca64dfc526c276f12250a8beeaa7db18fcfb"
             }
           }
         }
@@ -703,9 +709,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.0",
+        "HOMEBREW_VERSION": "2.4.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "c358c3d4c0999cc2045bdbc5c2db7f30e93818a1",
+        "Homebrew/homebrew-core": "d2bc38e9cb5f59a704cc3e8b9a2720b064a307a9",
         "CLT": "11.5.0.0.1.1588476445",
         "Xcode": "11.5",
         "macOS": "10.15.5"

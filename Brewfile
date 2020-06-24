@@ -58,6 +58,9 @@ cask 'google-cloud-sdk'
 brew 'awscli'
 brew "heroku/brew/heroku"
 
+# for require dbeaver
+cask 'adoptopenjdk8'
+
 cask 'sourcetree'
 
 # Edidor tools
@@ -67,7 +70,6 @@ cask 'jetbrains-toolbox'
 cask 'visual-studio-code'
 
 ## Database tools
-
 cask 'dbeaver-community'
 cask 'sequel-pro'
 
