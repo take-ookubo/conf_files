@@ -1,47 +1,47 @@
 [user]
-	name = take ookubo
-	email = xxxxx@example.com
+    name = take ookubo
+    email = xxxxx@example.com
 [core]
-	excludesfile = ~/.gitignore_global
+    excludesfile = ~/.gitignore_global
 [http]
-	sslVerify = false
+    sslVerify = false
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+    cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+    path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+    cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+    trustExitCode = true
 [alias]
-	a = add -p
-	b = branch -vv
-	d = diff
-	c = commit
-	ch = checkout
-	cl = clone
-	f = fetch
-	g = log --pretty=format:\"%C(red)%h%Creset %C(cyan)<%an>%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset\" --abbrev-commit --date=relative --graph
-	glog = log --pretty=format:\"%C(red)%h%Creset %C(cyan)<%an>%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset\" --abbrev-commit --date=relative --graph
-	nc = commit -a --allow-empty-message -m ""
-	m = merge
-	p = pull
-	pu = push -u origin
-	r = reset
-	rsoft = reset --soft HEAD^
-	s = show
-	st = status --short
+    a = add -p
+    b = branch -vv
+    d = diff
+    c = commit
+    ch = checkout
+    cl = clone
+    f = fetch
+    g = log --pretty=format:\"%C(red)%h%Creset %C(cyan)<%an>%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset\" --abbrev-commit --date=relative --graph
+    glog = log --pretty=format:\"%C(red)%h%Creset %C(cyan)<%an>%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset\" --abbrev-commit --date=relative --graph
+    nc = commit -a --allow-empty-message -m ""
+    m = merge
+    p = pull
+    pu = push -u origin
+    r = reset
+    rsoft = reset --soft HEAD^
+    s = show
+    st = status --short
         squash = merge --squash
-	l = log
+    l = log
 [push]
-	default = simple
+    default = simple
 [github]
-	user = take-ookubo
-	token = XXXXXX_TOKEN_EXAMPLE
+    user = take-ookubo
+    token = XXXXXX_TOKEN_EXAMPLE
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
 [commit]
-	template = ~/.stCommitMsg
+    template = ~/.stCommitMsg
 [pull]
-	rebase = false
+    rebase = false
