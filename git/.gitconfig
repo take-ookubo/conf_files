@@ -3,6 +3,13 @@
     email = xxxxx@example.com
 [core]
     excludesfile = ~/.gitignore_global
+    precomposeunicode = true
+    # 日本語のファイル名が文字化けしない
+    quotepath = false
+    # 混在改行コードを自動変換しない
+    safecrlf = true
+    # 改行コードの変換を行わない
+    autocrlf = false
 [http]
     sslVerify = false
 [difftool "sourcetree"]
@@ -45,3 +52,6 @@
     template = ~/.stCommitMsg
 [pull]
     rebase = false
+[credential]
+    # クレデンシャルをキャッシュ
+    helper = wincred
