@@ -13,10 +13,12 @@ backup ~/.gitconfig
 backup ~/.git-prompt.sh
 backup ~/.gitignore_global
 
+read -p "Enter github user name: xxxx yyyy > " user
 read -p "Enter github email: xxxxx@example.com > " email
 read -p "Enter github token: XXXXXX_TOKEN_EXAMPLE > " github_token
 
 cp `pwd`/git/.gitconfig ~/.gitconfig
+sed -i ""  "s|xxxx yyyy|${user}|g" ~/.gitconfig
 sed -i ""  "s|xxxxx@example.com|${email}|g" ~/.gitconfig
 sed -i ""  "s|XXXXXX_TOKEN_EXAMPLE|${github_token}|g" ~/.gitconfig
 ln -s `pwd`/git/.git-prompt.sh ~/.git-prompt.sh

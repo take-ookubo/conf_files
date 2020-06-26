@@ -1,5 +1,5 @@
 [user]
-    name = take ookubo
+    name = xxxx yyyy
     email = xxxxx@example.com
 [core]
     excludesfile = ~/.gitignore_global
@@ -34,7 +34,7 @@
 [push]
     default = simple
 [github]
-    user = take-ookubo
+    user = xxxx yyyy
     token = XXXXXX_TOKEN_EXAMPLE
 [filter "lfs"]
     clean = git-lfs clean -- %f
