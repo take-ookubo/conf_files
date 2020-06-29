@@ -233,6 +233,12 @@
         "options": {
           "full_name": "adoptopenjdk8"
         }
+      },
+      "thunderbird": {
+        "version": "68.9.0",
+        "options": {
+          "full_name": "thunderbird"
+        }
       }
     },
     "mas": {

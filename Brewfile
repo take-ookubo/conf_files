@@ -14,7 +14,10 @@ cask 'gyazo'
 # Office tools
 cask 'microsoft-office'
 mas 'Cybozu Desktop', id: 905155357
+
+# Mail client
 mas 'Kiwi for Gmail', id: 986304488
+cask 'thunderbird'
 
 ## Remote client tools
 cask 'teamviewer'
