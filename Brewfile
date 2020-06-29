@@ -65,6 +65,7 @@ brew "heroku/brew/heroku"
 cask 'adoptopenjdk8'
 
 cask 'sourcetree'
+cask 'beyond-compare'
 
 # Edidor tools
 

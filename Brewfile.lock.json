@@ -239,6 +239,12 @@
         "options": {
           "full_name": "thunderbird"
         }
+      },
+      "beyond-compare": {
+        "version": "4.3.4.24657",
+        "options": {
+          "full_name": "beyond-compare"
+        }
       }
     },
     "mas": {
