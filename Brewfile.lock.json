@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "2c0f6116b1f5c5e3cb95c24db51ea93861694007"
+        "revision": "38450939dcc5a7bd5c139464fb35b5939c406221"
       },
       "homebrew/core": {
-        "revision": "d2bc38e9cb5f59a704cc3e8b9a2720b064a307a9"
+        "revision": "8661ccb23bb0bad0f58bfe13d3aaf20ee7136fd8"
       },
       "homebrew/cask": {
-        "revision": "bc305e384e958b4e43357b9a51e55b169a8c0b34"
+        "revision": "25e4cd938640e9a459dcd8bd34b6b1aaa7429551"
       },
       "heroku/brew": {
         "revision": "2fbdd513b72119e373505ef0c9047a8090cae7d6"
       },
       "homebrew/cask-versions": {
-        "revision": "40366b929dd6b9401015334f446a09e04d6f1971"
+        "revision": "822c2b4de080426b0aa4f7d575c1c8afbeb306b1"
       }
     },
     "cask": {
@@ -323,22 +323,22 @@
         "bottle": false
       },
       "awscli": {
-        "version": "2.0.25",
+        "version": "2.0.26",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.25.catalina.bottle.tar.gz",
-              "sha256": "663ffc0197f4edbbe5f351f67d071a7ca4848be8a01fea5f99dd9d14558f3a7c"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.26.catalina.bottle.tar.gz",
+              "sha256": "481bf232b560b04ad7b7d8eb5e90395ec76492343a1d68077d711369f7178491"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.25.mojave.bottle.tar.gz",
-              "sha256": "d65c65c39cbe4a8ac20c175cc5b8cc8180dcc3fe96e55069b7fc8d890129f368"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.26.mojave.bottle.tar.gz",
+              "sha256": "9f21b6360f37a2b4b87676ba727ae80e971324036df3ffd958fa27c8dffbf9d7"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.25.high_sierra.bottle.tar.gz",
-              "sha256": "b8640bf289cd48d59fea766ede54ca64dfc526c276f12250a8beeaa7db18fcfb"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.0.26.high_sierra.bottle.tar.gz",
+              "sha256": "b039373cb0b981c89036ff0c07e4834f59a0a282c4ccfc27937529d0245d0c96"
             }
           }
         }
