@@ -43,7 +43,7 @@
         }
       },
       "teamviewer": {
-        "version": "15.6.7",
+        "version": "15.7.6",
         "options": {
           "full_name": "teamviewer"
         }
@@ -85,7 +85,7 @@
         }
       },
       "brave-browser": {
-        "version": "83.1.10.93,110.93",
+        "version": "83.1.10.97,110.97",
         "options": {
           "full_name": "brave-browser"
         }
