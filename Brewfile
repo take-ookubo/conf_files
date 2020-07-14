@@ -75,7 +75,7 @@ cask 'visual-studio-code'
 
 ## Database tools
 cask 'dbeaver-community'
-cask 'sequel-pro'
+cask 'sequel-ace'
 
 ## Virtual Machine tools
 

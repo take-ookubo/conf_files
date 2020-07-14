@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "38450939dcc5a7bd5c139464fb35b5939c406221"
+        "revision": "f760551841012ee20c90f2afd336c15423b23479"
       },
       "homebrew/core": {
-        "revision": "8661ccb23bb0bad0f58bfe13d3aaf20ee7136fd8"
+        "revision": "11253478a7a8f2b7472494e86fc01f308b53570a"
       },
       "homebrew/cask": {
-        "revision": "25e4cd938640e9a459dcd8bd34b6b1aaa7429551"
+        "revision": "37457d19bbbf35c2470c48a0839a29a5c426b033"
       },
       "heroku/brew": {
-        "revision": "2fbdd513b72119e373505ef0c9047a8090cae7d6"
+        "revision": "351854e10f79b6f269fe799873fd0dc85bc0af40"
       },
       "homebrew/cask-versions": {
-        "revision": "822c2b4de080426b0aa4f7d575c1c8afbeb306b1"
+        "revision": "fa157332a5628001a94c4452b84f9b130af6c1da"
       }
     },
     "cask": {
@@ -244,6 +244,12 @@
         "version": "4.3.4.24657",
         "options": {
           "full_name": "beyond-compare"
+        }
+      },
+      "sequel-ace": {
+        "version": "2.1.2",
+        "options": {
+          "full_name": "sequel-ace"
         }
       }
     },
