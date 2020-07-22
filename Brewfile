@@ -108,6 +108,9 @@ brew "htop"
 brew "pstree"
 brew "tree"
 
+### bash history incremental search
+brew "peco"
+
 ## Network tools
 brew "wget"
 brew "nmap"
