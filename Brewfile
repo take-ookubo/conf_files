@@ -44,6 +44,7 @@ cask 'microsoft-edge'
 cask 'brave-browser'
 cask 'opera'
 cask 'sleipnir'
+cask 'chromium'
 cask 'github'
 
 # Developer tools
