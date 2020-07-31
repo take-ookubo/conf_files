@@ -60,6 +60,8 @@ alias myimport='mysql -u root --default-character-set=binary -h localhost ${LOCA
 alias r=bin/rails
 alias rk=bin/rake
 alias rs=bin/rspec
+alias vpn-start="scutil --nc start VPN --user ${VPN_USER} --password ${VPN_PASSWORD} --secret ${VPN_PSK}"
+alias vpn-stop="scutil --nc stop VPN"
 
 # 2017/04/18 Add by anyenv
 export PATH="$HOME/.anyenv/bin:$PATH"
