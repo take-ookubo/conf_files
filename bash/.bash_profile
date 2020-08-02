@@ -9,9 +9,9 @@ if [ -f ~/.env ]; then
 fi
 
 # 2019/04/20 add the 'gp' command.
-PS1="\[\033[0;35m\][\u@\h \W\$(__git_ps1)]\\$\[\033[0m\] "
-HISTSIZE=500000
-HISTFILESIZE=500000
+PS1="\[\033[0;36m\][\u@\h \W\$(__git_ps1)]\\$\[\033[0m\] "
+HISTSIZE=50000
+HISTFILESIZE=50000
 HISTTIMEFORMAT="%F %T "
 HISTCONTROL=ignoredups
 HISTIGNORE="h:history:h *:history *:l:ll:ls:ls *"
