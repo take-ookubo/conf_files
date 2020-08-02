@@ -61,6 +61,7 @@ brew 'tmux-xpanes'
 cask 'google-cloud-sdk'
 brew 'awscli'
 brew "heroku/brew/heroku"
+brew 'direnv'
 
 # for require dbeaver
 cask 'adoptopenjdk8'
