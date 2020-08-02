@@ -26,6 +26,7 @@ alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias e=exit
 alias d=docker
 alias dc=docker-compose
+alias fcd='cd "$(find . -type d | peco)"'
 alias h=history
 alias nkfs='nkf -s -Lw --overwrite'
 alias nkfu='nkf -w -Lu --overwrite'
