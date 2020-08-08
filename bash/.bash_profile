@@ -64,14 +64,32 @@ alias rs=bin/rspec
 alias vpn-start="scutil --nc start VPN --user ${VPN_USER} --password ${VPN_PASSWORD} --secret ${VPN_PSK}"
 alias vpn-stop="scutil --nc stop VPN"
 
-# 2017/04/18 Add by anyenv
-export PATH="$HOME/.anyenv/bin:$PATH"
-eval "$(anyenv init -)"
+export PATH="$PATH:/usr/local/sbin:/usr/local/bin"
 
-export PATH="$PATH:/usr/local/sbin:/usr/local/bin:`brew --prefix openssl`/bin:$HOME/.cargo/bin:$GOPATH/bin"
+# 2017/04/18 Add by anyenv
+if [ -d "$HOME/.anyenv/bin" ]; then
+  export PATH="$HOME/.anyenv/bin:$PATH"
+  eval "$(anyenv init -)"
+fi
+
+if type "brew" > /dev/null 2>&1; then
+  export PATH="$PATH:`brew --prefix openssl`/bin"
+fi
+
+if [ -d "$HOME/.cargo/bin" ]; then
+  export PATH="$PATH:$HOME/.cargo/bin"
+fi
+
+if [ -d "$GOPATH/bin" ]; then
+  export PATH="$PATH:$GOPATH/bin"
+fi
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f ~/google-cloud-sdk/path.bash.inc ]; then . ~/google-cloud-sdk/path.bash.inc; fi
 
 # The next line enables shell command completion for gcloud.
 if [ -f ~/google-cloud-sdk/completion.bash.inc ]; then . ~/google-cloud-sdk/completion.bash.inc; fi
+
+if type "direnv" > /dev/null 2>&1; then
+  eval "$(direnv hook bash)"
+fi
