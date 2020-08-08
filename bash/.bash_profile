@@ -54,7 +54,6 @@ alias gpu='git push'
 alias gr=gradle
 alias s=ssh
 alias ssh-ignorekey='ssh -oUserKnownHostsFile=/dev/null -oStrictHostKeyChecking=no'
-alias sublime='open -a /Applications/Sublime\ Text.app'
 alias excel='open -a /Applications/Microsoft\ Excel.app'
 alias mydump='mysqldump -u root --quote-names --flush-logs --add-drop-table --add-locks --create-options --disable-keys --extended-insert --lock-tables --quick --set-charset ${LOCAL_DB}'
 alias myimport='mysql -u root --default-character-set=binary -h localhost ${LOCAL_DB}'
