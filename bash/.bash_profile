@@ -74,9 +74,7 @@ alias gcp_fw_ls="gcloud compute firewall-rules list"
 
 export PATH="$PATH:/usr/local/sbin:/usr/local/bin"
 
-# 2017/04/18 Add by anyenv
-if [ -d "$HOME/.anyenv/bin" ]; then
-  export PATH="$HOME/.anyenv/bin:$PATH"
+if type "anyenv" > /dev/null 2>&1; then
   eval "$(anyenv init -)"
 fi
 
@@ -84,8 +82,9 @@ if type "brew" > /dev/null 2>&1; then
   export PATH="$PATH:`brew --prefix openssl`/bin"
 fi
 
-if [ -d "$HOME/.cargo/bin" ]; then
-  export PATH="$PATH:$HOME/.cargo/bin"
+if type "cargo" > /dev/null 2>&1; then
+  cargo_bin=$(dirname `which cargo`)
+  export PATH="$PATH:${cargo_bin}"
 fi
 
 if [ -d "$GOPATH/bin" ]; then
