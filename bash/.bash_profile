@@ -63,6 +63,11 @@ alias rs=bin/rspec
 alias vpn-start="scutil --nc start VPN --user ${VPN_USER} --password ${VPN_PASSWORD} --secret ${VPN_PSK}"
 alias vpn-stop="scutil --nc stop VPN"
 
+# gcloud shortcut
+alias gcp_ls="gcloud compute instances list"
+alias gcp_ip_ls="gcloud compute addresses list"
+alias gcp_fw_ls="gcloud compute firewall-rules list"
+
 export PATH="$PATH:/usr/local/sbin:/usr/local/bin"
 
 # 2017/04/18 Add by anyenv
