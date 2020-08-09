@@ -51,15 +51,19 @@ alias gp="git pull"
 alias gch='git checkout master'
 alias gchd='git checkout develop'
 alias gpu='git push'
+
 alias gr=gradle
-alias s=ssh
-alias ssh-ignorekey='ssh -oUserKnownHostsFile=/dev/null -oStrictHostKeyChecking=no'
 alias excel='open -a /Applications/Microsoft\ Excel.app'
 alias mydump='mysqldump -u root --quote-names --flush-logs --add-drop-table --add-locks --create-options --disable-keys --extended-insert --lock-tables --quick --set-charset ${LOCAL_DB}'
 alias myimport='mysql -u root --default-character-set=binary -h localhost ${LOCAL_DB}'
 alias r=bin/rails
 alias rk=bin/rake
 alias rs=bin/rspec
+
+# network shorcut
+alias gip="curl inet-ip.info"
+alias s=ssh
+alias ssh-ignorekey='ssh -oUserKnownHostsFile=/dev/null -oStrictHostKeyChecking=no'
 alias vpn-start="scutil --nc start VPN --user ${VPN_USER} --password ${VPN_PASSWORD} --secret ${VPN_PSK}"
 alias vpn-stop="scutil --nc stop VPN"
 
