@@ -2,27 +2,34 @@
 
 function backup() {
   if [ -f $1 ]; then
-    rm -rf "${1}.bak"
-    mv ${1} "${1}.bak"
+    timestamp=$(date "+%Y%m%d%H%M%S")
+    cp -fRL ${1} "${1}.bak_${timestamp}"
+    rm -rf "${1}"
   fi
 }
 
 # Setup ~/.git***
 echo "Setup ~/.git***"
-backup ~/.gitconfig
-backup ~/.git-prompt.sh
-backup ~/.gitignore_global
-
 read -p "Enter github user name: xxxx yyyy > " user
 read -p "Enter github email: xxxxx@example.com > " email
 read -p "Enter github token: XXXXXX_TOKEN_EXAMPLE > " github_token
 
-cp `pwd`/git/.gitconfig ~/.gitconfig
-sed -i ""  "s|xxxx yyyy|${user}|g" ~/.gitconfig
-sed -i ""  "s|xxxxx@example.com|${email}|g" ~/.gitconfig
-sed -i ""  "s|XXXXXX_TOKEN_EXAMPLE|${github_token}|g" ~/.gitconfig
-ln -s `pwd`/git/.git-prompt.sh ~/.git-prompt.sh
-ln -s `pwd`/git/.gitignore_global ~/.gitignore_global
+if [ -z "${user}" ] \
+  || [ -z "${email}" ] \
+  || [ -z "${github_token}" ]; then
+  echo "Skip setup ~/.git***"
+else
+  backup ~/.gitconfig
+  backup ~/.git-prompt.sh
+  backup ~/.gitignore_global
+
+  cp `pwd`/git/.gitconfig ~/.gitconfig
+  sed -i ""  "s|xxxx yyyy|${user}|g" ~/.gitconfig
+  sed -i ""  "s|xxxxx@example.com|${email}|g" ~/.gitconfig
+  sed -i ""  "s|XXXXXX_TOKEN_EXAMPLE|${github_token}|g" ~/.gitconfig
+  ln -s `pwd`/git/.git-prompt.sh ~/.git-prompt.sh
+  ln -s `pwd`/git/.gitignore_global ~/.gitignore_global
+fi
 
 echo "Setup ~/.bash_profile"
 backup ~/.bash_profile
