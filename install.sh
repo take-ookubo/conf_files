@@ -60,3 +60,7 @@ fi
 if [ -f `pwd`/Brewfile ]; then
   brew bundle
 fi
+
+echo "Setup ~/.tmux.conf"
+backup ~/.tmux.conf
+ln -s `pwd`/tmux/.tmux.conf ~/.tmux.conf
