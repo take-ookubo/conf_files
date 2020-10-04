@@ -71,6 +71,9 @@ alias vpn-stop="scutil --nc stop VPN"
 alias gcp_ls="gcloud compute instances list"
 alias gcp_ip_ls="gcloud compute addresses list"
 alias gcp_fw_ls="gcloud compute firewall-rules list"
+alias curl_with_code='curl -w "%{http_code}" -H "Content-Type: application/json"'
+alias curl_post='curl -X POST -H "Content-Type: application/json"'
+alias curl_post_with_code='curl -w "%{http_code}" -X POST -H "Content-Type: application/json"'
 
 export PATH="$PATH:/usr/local/sbin:/usr/local/bin"
 
