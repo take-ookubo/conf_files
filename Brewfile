@@ -55,6 +55,7 @@ mas 'Xcode', id: 497799835
 
 cask 'iterm2'
 brew 'git'
+brew 'gh'
 brew 'anyenv'
 brew 'tmux-xpanes'
 
@@ -109,6 +110,7 @@ brew "fswatch"
 brew "htop"
 brew "pstree"
 brew "tree"
+brew "gh"
 
 ### bash history incremental search
 brew "peco"
@@ -134,3 +136,6 @@ cask "yacreader"
 
 # etc tools
 mas "The Unarchiver", id: 425424353
+
+# English translation
+cask "deepl"
