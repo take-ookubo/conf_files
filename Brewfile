@@ -76,9 +76,10 @@ cask 'sublime-text'
 cask 'jetbrains-toolbox'
 cask 'visual-studio-code'
 
-## Database tools
+## Database client tools
 cask 'dbeaver-community'
 cask 'sequel-ace'
+brew 'libpq'
 
 ## Virtual Machine tools
 

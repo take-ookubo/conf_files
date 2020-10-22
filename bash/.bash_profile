@@ -83,6 +83,7 @@ fi
 
 if type "brew" > /dev/null 2>&1; then
   export PATH="$PATH:`brew --prefix openssl`/bin"
+  export PATH="$PATH:`brew --prefix libpq`/bin"
 fi
 
 if type "cargo" > /dev/null 2>&1; then
