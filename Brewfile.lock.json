@@ -5,10 +5,10 @@
         "revision": "78513292658ff002a6a816bdeb9d286150ee1a16"
       },
       "homebrew/core": {
-        "revision": "ddc5db4397b826d30dfa12749557cbc17e3c8bcd"
+        "revision": "7ce51aef04e113d269c3882816d5432ac6981944"
       },
       "homebrew/cask": {
-        "revision": "3f18b8c89076dd6742d287d41928e1e6017e7d3a"
+        "revision": "9ef04c4be8c66f0ae7b2dbc56187a03b4b499135"
       },
       "heroku/brew": {
         "revision": "bef2032f1e1a804b726254e3e4bef84d4d05dd52"
@@ -37,13 +37,13 @@
         }
       },
       "microsoft-office": {
-        "version": "16.38.20061401",
+        "version": "16.41.20091302",
         "options": {
           "full_name": "microsoft-office"
         }
       },
       "teamviewer": {
-        "version": "15.7.6",
+        "version": "15.10.5",
         "options": {
           "full_name": "teamviewer"
         }
@@ -79,13 +79,13 @@
         }
       },
       "google-chrome": {
-        "version": "83.0.4103.116",
+        "version": "83.0.4103.106",
         "options": {
           "full_name": "google-chrome"
         }
       },
       "brave-browser": {
-        "version": "83.1.10.97,110.97",
+        "version": "83.1.10.93,110.93",
         "options": {
           "full_name": "brave-browser"
         }
@@ -815,7 +815,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.5.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "ddc5db4397b826d30dfa12749557cbc17e3c8bcd",
+        "Homebrew/homebrew-core": "7ce51aef04e113d269c3882816d5432ac6981944",
         "CLT": "1103.0.32.62",
         "Xcode": "12.1",
         "macOS": "10.15.7"
