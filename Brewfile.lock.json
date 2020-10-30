@@ -263,6 +263,12 @@
         "options": {
           "full_name": "deepl"
         }
+      },
+      "waterfox-current": {
+        "version": "2020.09,6820.9.22",
+        "options": {
+          "full_name": "waterfox-current"
+        }
       }
     },
     "mas": {
