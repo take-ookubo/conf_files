@@ -140,3 +140,7 @@ mas "The Unarchiver", id: 425424353
 
 # English translation
 cask "deepl"
+
+# Cloud Storage
+cask "osxfuse"
+brew "s3fs"

@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "78513292658ff002a6a816bdeb9d286150ee1a16"
+        "revision": "9aed384937bdf545b5c4e3e1fcc0a2bd686dd979"
       },
       "homebrew/core": {
-        "revision": "7ce51aef04e113d269c3882816d5432ac6981944"
+        "revision": "6b6dff6ce7f0467c4db484b5848cebb9e61cc8d7"
       },
       "homebrew/cask": {
-        "revision": "9ef04c4be8c66f0ae7b2dbc56187a03b4b499135"
+        "revision": "62853c4c1cd9927901d249f077e11d7fcacb49b5"
       },
       "heroku/brew": {
-        "revision": "bef2032f1e1a804b726254e3e4bef84d4d05dd52"
+        "revision": "8a16304dddd835811e964fc60967136045bef97b"
       },
       "homebrew/cask-versions": {
-        "revision": "6d02a5f80c948189c3dbacc4d4a2cae97245d140"
+        "revision": "f78b54f2ebeb331f16d9e4ca546ef025f4264ec8"
       }
     },
     "cask": {
@@ -268,6 +268,12 @@
         "version": "2020.09,6820.9.22",
         "options": {
           "full_name": "waterfox-current"
+        }
+      },
+      "osxfuse": {
+        "version": "3.11.2",
+        "options": {
+          "full_name": "osxfuse"
         }
       }
     },
@@ -807,15 +813,36 @@
             }
           }
         }
+      },
+      "s3fs": {
+        "version": "1.87",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/s3fs-1.87.catalina.bottle.tar.gz",
+              "sha256": "5183ab606057fbe8e46a737b25c1ad4e82dd67389f48827d7bfd567c67cf8417"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/s3fs-1.87.mojave.bottle.tar.gz",
+              "sha256": "d691bdeb4abd443bc1f1f3de46c286a97829f95ba3d47b026e535a6688085d07"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/s3fs-1.87.high_sierra.bottle.tar.gz",
+              "sha256": "f475d03b68102dd400a22de99b9ddc044653f6658e2cb84349adf507ffbddcad"
+            }
+          }
+        }
       }
     }
   },
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.5.6",
+        "HOMEBREW_VERSION": "2.5.7",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "7ce51aef04e113d269c3882816d5432ac6981944",
+        "Homebrew/homebrew-core": "6b6dff6ce7f0467c4db484b5848cebb9e61cc8d7",
         "CLT": "1103.0.32.62",
         "Xcode": "12.1",
         "macOS": "10.15.7"
