@@ -5,7 +5,7 @@
         "revision": "d1a530ada501e983aef2748411b947b8c5696ac9"
       },
       "homebrew/core": {
-        "revision": "3f24cd2a0ba1dab91d47ac0876b97595b5989fe7"
+        "revision": "699c94ba0fd0dec45afc340b794debc0c39902b7"
       },
       "homebrew/cask": {
         "revision": "180710edc2f8e79108df4760af51c17a2bea28c6"
@@ -274,6 +274,12 @@
         "version": "3.11.2",
         "options": {
           "full_name": "osxfuse"
+        }
+      },
+      "alacritty": {
+        "version": "0.6.0",
+        "options": {
+          "full_name": "alacritty"
         }
       }
     },
@@ -914,7 +920,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.5.11",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "3f24cd2a0ba1dab91d47ac0876b97595b5989fe7",
+        "Homebrew/homebrew-core": "699c94ba0fd0dec45afc340b794debc0c39902b7",
         "CLT": "1103.0.32.62",
         "Xcode": "12.2",
         "macOS": "10.15.7"
