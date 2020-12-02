@@ -49,7 +49,9 @@ alias gst='git stash'
 alias gl='git log'
 alias gp="git pull"
 alias gch='git checkout master'
-alias gchd='git checkout develop'
+alias master='git checkout master'
+alias sand='git checkout sand'
+alias dev='git checkout develop'
 alias gpu='git push'
 
 alias gr=gradle
