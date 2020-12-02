@@ -199,7 +199,7 @@
         }
       },
       "docker": {
-        "version": "2.3.0.3,45519",
+        "version": "2.5.0.1,49550",
         "options": {
           "full_name": "docker"
         }
@@ -286,7 +286,7 @@
     "mas": {
       "Kiwi for Gmail": {
         "id": "986304488",
-        "version": "2.0.36"
+        "version": "2.0.39"
       },
       "Cybozu Desktop": {
         "id": "905155357",
@@ -310,7 +310,7 @@
       },
       "The Unarchiver": {
         "id": "425424353",
-        "version": "4.2.2"
+        "version": "4.2.4"
       }
     },
     "brew": {
