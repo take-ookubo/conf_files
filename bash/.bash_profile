@@ -104,3 +104,8 @@ if [ -f ~/google-cloud-sdk/completion.bash.inc ]; then . ~/google-cloud-sdk/comp
 if type "direnv" > /dev/null 2>&1; then
   eval "$(direnv hook bash)"
 fi
+
+if [ -d "$HOME/.cargo" ]; then
+	export PATH="$PATH:$HOME/.cargo/bin"
+  source "$HOME/.cargo/env"
+fi
