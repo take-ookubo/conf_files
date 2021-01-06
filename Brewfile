@@ -54,7 +54,9 @@ mas 'Xcode', id: 497799835
 ## CLI tools
 
 cask 'iterm2'
-cask 'alacritty'
+# alacritty instead of hyper3
+cask 'hyper'
+#cask 'alacritty'
 brew 'git'
 brew 'gh'
 brew 'anyenv'

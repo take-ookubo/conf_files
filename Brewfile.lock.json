@@ -281,6 +281,12 @@
         "options": {
           "full_name": "alacritty"
         }
+      },
+      "hyper": {
+        "version": "3.0.2",
+        "options": {
+          "full_name": "hyper"
+        }
       }
     },
     "mas": {
