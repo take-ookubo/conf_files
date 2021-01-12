@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "cf39690794b211ea9d7ec49dbbe9336a5aa4a176"
+        "revision": "72f41aae9b14d3603dd6d9a4e6bdecd871b5310a"
       },
       "homebrew/core": {
-        "revision": "8b711a6a83146196e4a044213b675ce251879cc2"
+        "revision": "3c379e13fac61a9bff03c32489aa2a7282ea9823"
       },
       "homebrew/cask": {
-        "revision": "5c3de97f1ba5769b0597b130991a0fb3df84e4a2"
+        "revision": "a3598c799ff2b0a757cd6399ca83fe7611268822"
       },
       "heroku/brew": {
-        "revision": "032a1ca558758e2f99067b167c6d672ebc7e01d5"
+        "revision": "36ce89907d2cba2e83a6473a76989dd560479e8e"
       },
       "homebrew/cask-versions": {
-        "revision": "744691339465a19e00d2e851f69e6d3169d5711f"
+        "revision": "51fa382895944b1c1fa7ce4141b2eda21e708505"
       }
     },
     "cask": {
@@ -286,6 +286,12 @@
         "version": "3.0.2",
         "options": {
           "full_name": "hyper"
+        }
+      },
+      "typora": {
+        "version": "0.9.9.36.2,4901",
+        "options": {
+          "full_name": "typora"
         }
       }
     },
@@ -980,11 +986,11 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.7.1",
+        "HOMEBREW_VERSION": "2.7.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "8b711a6a83146196e4a044213b675ce251879cc2",
+        "Homebrew/homebrew-core": "3c379e13fac61a9bff03c32489aa2a7282ea9823",
         "CLT": "1103.0.32.62",
-        "Xcode": "12.2",
+        "Xcode": "12.3",
         "macOS": "10.15.7"
       }
     }

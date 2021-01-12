@@ -78,6 +78,7 @@ cask 'beyond-compare'
 cask 'sublime-text'
 cask 'jetbrains-toolbox'
 cask 'visual-studio-code'
+cask 'typora'
 
 ## Database client tools
 cask 'dbeaver-community'
