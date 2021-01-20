@@ -142,6 +142,7 @@ cask "yacreader"
 
 # etc tools
 mas "The Unarchiver", id: 425424353
+brew 'wakeonlan'
 
 # English translation
 cask "deepl"
