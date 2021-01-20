@@ -79,6 +79,7 @@ cask 'sublime-text'
 cask 'jetbrains-toolbox'
 cask 'visual-studio-code'
 cask 'typora'
+cask 'xmind'
 
 ## Database client tools
 cask 'dbeaver-community'

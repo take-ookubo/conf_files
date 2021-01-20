@@ -293,6 +293,12 @@
         "options": {
           "full_name": "typora"
         }
+      },
+      "xmind": {
+        "version": "3.7.9.201912052356,8-update9",
+        "options": {
+          "full_name": "xmind"
+        }
       }
     },
     "mas": {
