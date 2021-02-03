@@ -29,6 +29,7 @@ cask 'vnc-viewer'
 cask 'slack'
 cask 'chatwork'
 cask 'zoomus'
+cask 'discord'
 mas 'LINE', id: 539883307
 
 # Web browseres

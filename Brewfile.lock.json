@@ -299,6 +299,12 @@
         "options": {
           "full_name": "xmind"
         }
+      },
+      "discord": {
+        "version": "0.0.261",
+        "options": {
+          "full_name": "discord"
+        }
       }
     },
     "mas": {
