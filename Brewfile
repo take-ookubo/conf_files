@@ -92,7 +92,7 @@ cask 'virtualbox'
 cask 'vagrant'
 
 cask 'docker'
-brew 'docker-compose'
+# brew 'docker-compose'
 
 ## Develop Library tools
 
