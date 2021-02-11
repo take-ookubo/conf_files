@@ -52,6 +52,13 @@ cask 'github'
 
 mas 'Xcode', id: 497799835
 
+## iOS App develop tools
+brew 'cocoapods'
+
+## Android App develop tools
+cask 'android-studio'
+cask 'android-sdk'
+
 ## CLI tools
 
 cask 'iterm2'
@@ -69,7 +76,7 @@ brew 'awscli'
 brew "heroku/brew/heroku"
 brew 'direnv'
 
-# for require dbeaver
+# for require dbeaver&android
 cask 'adoptopenjdk8'
 
 cask 'sourcetree'
@@ -97,7 +104,6 @@ cask 'docker'
 # brew 'docker-compose'
 
 ## Develop Library tools
-
 brew 'zlib'
 brew 'autoconf'
 brew 'bzip2'
@@ -119,6 +125,9 @@ brew "htop"
 brew "pstree"
 brew "tree"
 brew "gh"
+brew 'curl'
+brew 'libffi'
+brew 'watchman'
 
 ### bash history incremental search
 brew "peco"

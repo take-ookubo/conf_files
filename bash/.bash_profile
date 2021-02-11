@@ -108,6 +108,10 @@ if type "direnv" > /dev/null 2>&1; then
 fi
 
 if [ -d "$HOME/.cargo" ]; then
-	export PATH="$PATH:$HOME/.cargo/bin"
+  export PATH="$PATH:$HOME/.cargo/bin"
   source "$HOME/.cargo/env"
+fi
+
+if [ -d "/usr/local/share/android-sdk/platform-tools" ]; then
+  export PATH=$PATH:/usr/local/share/android-sdk/platform-tools
 fi
