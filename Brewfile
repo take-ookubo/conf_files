@@ -160,4 +160,3 @@ cask "deepl"
 
 # Cloud Storage
 cask "osxfuse"
-brew "s3fs"
