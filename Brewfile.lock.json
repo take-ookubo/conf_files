@@ -305,6 +305,12 @@
         "options": {
           "full_name": "zoom"
         }
+      },
+      "authy": {
+        "version": "1.8.3",
+        "options": {
+          "full_name": "authy"
+        }
       }
     },
     "mas": {

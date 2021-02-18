@@ -160,3 +160,6 @@ cask "deepl"
 
 # Cloud Storage
 cask "osxfuse"
+
+# Authentication tools
+cask 'authy'
