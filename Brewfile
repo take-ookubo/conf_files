@@ -28,7 +28,7 @@ cask 'vnc-viewer'
 
 cask 'slack'
 cask 'chatwork'
-cask 'zoomus'
+cask 'zoom'
 cask 'discord'
 mas 'LINE', id: 539883307
 

@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "43668b6a7ce07cb5ba0936fe138185eda271894b"
+        "revision": "d5eac7eaed3ab50c71af9bb5cb4838c8a651991f"
       },
       "homebrew/core": {
-        "revision": "91f613a55a3e0a7bfabf0ae931e089643b98b990"
+        "revision": "703451fe242d959d029d867909ffd92f0d522ffd"
       },
       "homebrew/cask": {
-        "revision": "2d428fb7ed7f0e18087f23e26a915b43e7636bc1"
+        "revision": "0ab85872e6e234cbfba458ab53cce6a3163e1374"
       },
       "homebrew/cask-versions": {
-        "revision": "f4959eae788495cb61f752cca9f803b3a0877ff9"
+        "revision": "04ee03ecb29f9d938533da57644852bced43ca2c"
       },
       "heroku/brew": {
         "revision": "5d3de717acec768524d2ef75da62a1ff942a65c6"
@@ -19,7 +19,7 @@
     },
     "cask": {
       "alfred": {
-        "version": "4.3.1,1214",
+        "version": "4.3.2,1221",
         "options": {
           "full_name": "alfred"
         }
@@ -43,7 +43,7 @@
         }
       },
       "microsoft-office": {
-        "version": "16.45.21011103",
+        "version": "16.46.21021202",
         "options": {
           "full_name": "microsoft-office"
         }
@@ -73,7 +73,7 @@
         }
       },
       "slack": {
-        "version": "4.12.2",
+        "version": "4.13.0",
         "options": {
           "full_name": "slack"
         }
@@ -97,7 +97,7 @@
         }
       },
       "google-chrome": {
-        "version": "88.0.4324.150,4324.150",
+        "version": "88.0.4324.182,4324.182",
         "options": {
           "full_name": "google-chrome"
         }
@@ -145,7 +145,7 @@
         }
       },
       "opera": {
-        "version": "74.0.3911.107",
+        "version": "74.0.3911.139",
         "options": {
           "full_name": "opera"
         }
@@ -235,13 +235,13 @@
         }
       },
       "dbeaver-community": {
-        "version": "7.3.4",
+        "version": "7.3.5",
         "options": {
           "full_name": "dbeaver-community"
         }
       },
       "sequel-ace": {
-        "version": "3.2.0,3019",
+        "version": "3.2.1,3020",
         "options": {
           "full_name": "sequel-ace"
         }
@@ -298,6 +298,12 @@
         "version": "4333796",
         "options": {
           "full_name": "android-sdk"
+        }
+      },
+      "zoom": {
+        "version": "5.5.12513.0205",
+        "options": {
+          "full_name": "zoom"
         }
       }
     },
@@ -445,7 +451,7 @@
         "bottle": false
       },
       "awscli": {
-        "version": "2.1.26",
+        "version": "2.1.27",
         "bottle": {
           "rebuild": 0,
           "cellar": "/usr/local/Cellar",
@@ -453,20 +459,20 @@
           "root_url": "https://homebrew.bintray.com/bottles",
           "files": {
             "arm64_big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.26.arm64_big_sur.bottle.tar.gz",
-              "sha256": "f32b6f4d40b0e98e5097dc248323c04e3f9ea0bf606bf17579147a2711edc719"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.27.arm64_big_sur.bottle.tar.gz",
+              "sha256": "57adb5a4659356b494f81d6777d8f6963e5b2698511b22e435bd5782e1902a7c"
             },
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.26.big_sur.bottle.tar.gz",
-              "sha256": "ef5efb1c485401a8204a9e36d8469dfb29ff4aa01dc0efeac06973e7a943c6ea"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.27.big_sur.bottle.tar.gz",
+              "sha256": "0b43e62be61207646f83987ee743e127b81cc211c9de7529053c0265aff830fe"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.26.catalina.bottle.tar.gz",
-              "sha256": "be12cca986e484ceed1e133d56817cd8967aa855f90058c20666cc76d41ebec0"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.27.catalina.bottle.tar.gz",
+              "sha256": "a1919a0c4572b8f65bb018ab8fcc255e9fa2e4c331f8de396aa46b97c49558e6"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.26.mojave.bottle.tar.gz",
-              "sha256": "17d62e919076b40fca8aa0352e0c40375722e504c4d2d14edb210ea56bf6a7c7"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.27.mojave.bottle.tar.gz",
+              "sha256": "6cc49a8bdf8b0822753c67cf93175d964e2d0282716193d05da275b48aed4798"
             }
           }
         }
@@ -1188,7 +1194,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.0.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "91f613a55a3e0a7bfabf0ae931e089643b98b990",
+        "Homebrew/homebrew-core": "703451fe242d959d029d867909ffd92f0d522ffd",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.4",
         "macOS": "11.2.1"
