@@ -117,6 +117,16 @@ if [ -d "$HOME/.cargo" ]; then
   source "$HOME/.cargo/env"
 fi
 
-if [ -d "/usr/local/share/android-sdk/platform-tools" ]; then
-  export PATH=$PATH:/usr/local/share/android-sdk/platform-tools
+# Required for android development
+if [ -d "$HOME/Library/Android/sdk" ]; then
+  export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+  # ANDROID_HOME deprecated
+  # NOTE: https://developer.android.com/studio/command-line/variables
+  export ANDROID_HOME=$ANDROID_SDK_ROOT
+  export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/tools/bin:$ANDROID_SDK_ROOT/platform-tools
+fi
+
+# Required for android development
+if [ -x "/usr/libexec/java_home" ]; then
+  export JAVA_HOME=`/usr/libexec/java_home -v "18"`
 fi
