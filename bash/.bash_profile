@@ -77,6 +77,11 @@ alias curl_with_code='curl -w "%{http_code}" -H "Content-Type: application/json"
 alias curl_post='curl -X POST -H "Content-Type: application/json"'
 alias curl_post_with_code='curl -w "%{http_code}" -X POST -H "Content-Type: application/json"'
 
+# office infra
+alias sg_bounces='curl -X GET "https://api.sendgrid.com/v3/suppression/bounces?start_time=$(date -v -1d +%s)" -H "Authorization: Bearer ${SENDGRID_API_KEY}" -H "Content-Type: application/json"'
+alias sg_blocks='curl -X GET "https://api.sendgrid.com/v3/suppression/blocks?start_time=$(date -v -1d +%s)" -H "Authorization: Bearer ${SENDGRID_API_KEY}" -H "Content-Type: application/json"'
+
+
 export PATH="$PATH:/usr/local/sbin:/usr/local/bin"
 
 if type "anyenv" > /dev/null 2>&1; then
