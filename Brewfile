@@ -56,7 +56,6 @@ mas 'Xcode', id: 497799835
 brew 'cocoapods'
 
 ## Android App develop tools
-cask 'android-studio'
 cask 'android-sdk'
 
 ## CLI tools
