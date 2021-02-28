@@ -18,6 +18,7 @@ mas 'Cybozu Desktop', id: 905155357
 # Mail client
 mas 'Kiwi for Gmail', id: 986304488
 cask 'thunderbird'
+brew 'neomutt'
 
 ## Remote client tools
 cask 'teamviewer'
