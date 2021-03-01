@@ -5,13 +5,13 @@
         "revision": "b8b5bdb46cc45b7be5f305654a145473469d19d0"
       },
       "homebrew/core": {
-        "revision": "bee9dd8a628a750f05ff87135d90580888701c78"
+        "revision": "9c53fbb7f69e003459dd960430760c86d5a3ecff"
       },
       "homebrew/cask": {
-        "revision": "62593687231ec7487309f91577ed157baa771ea6"
+        "revision": "42efdbc66acf37c634453598aef4e6bbe1d365bf"
       },
       "homebrew/cask-versions": {
-        "revision": "651ae07de910421d20893c6a95feae513524b160"
+        "revision": "b9e1b85225bb1ff199f3579c8c1aca20b1124d63"
       },
       "heroku/brew": {
         "revision": "98839ea76ca6c57a13193ffb7b699af14d39b1de"
@@ -235,7 +235,7 @@
         }
       },
       "dbeaver-community": {
-        "version": "7.3.5",
+        "version": "21.0.0",
         "options": {
           "full_name": "dbeaver-community"
         }
@@ -277,7 +277,7 @@
         }
       },
       "deepl": {
-        "version": "2.1,29547",
+        "version": "2.2,30844",
         "options": {
           "full_name": "deepl"
         }
@@ -1227,10 +1227,10 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.0.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "bee9dd8a628a750f05ff87135d90580888701c78",
-        "CLT": "12.4.0.0.1.1610135815",
+        "Homebrew/homebrew-core": "9c53fbb7f69e003459dd960430760c86d5a3ecff",
+        "CLT": "",
         "Xcode": "12.4",
-        "macOS": "11.2.1"
+        "macOS": "11.2.2"
       }
     }
   }
