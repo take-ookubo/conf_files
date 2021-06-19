@@ -35,6 +35,10 @@ echo "Setup ~/.bash_profile"
 backup ~/.bash_profile
 ln -s `pwd`/bash/.bash_profile ~/.bash_profile
 
+echo "Setup ~/.bash_profile"
+backup ~/.bash_aliases
+ln -s `pwd`/bash/.bash_aliases ~/.bash_aliases
+
 # Setup brew
 if [ ! -f /usr/local/bin/brew ]; then
   echo "Setup brew"
