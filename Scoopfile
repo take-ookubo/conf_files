@@ -1,0 +1,10 @@
+scoop install git
+scoop install aria2
+scoop bucket add extras
+scoop install vscode
+scoop install sed
+scoop install vim
+scoop install wget
+scoop install gzip
+scoop install grep
+scoop install ueli
