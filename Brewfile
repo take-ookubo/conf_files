@@ -9,7 +9,7 @@ tap "heroku/brew"
 cask 'alfred'
 cask 'google-japanese-ime'
 cask 'clipy'
-cask 'gyazo'
+#cask 'gyazo'
 
 # Office tools
 cask 'microsoft-office'
@@ -44,9 +44,9 @@ cask 'coccoc'
 cask 'microsoft-edge'
 cask 'brave-browser'
 cask 'opera'
-cask 'sleipnir'
+#cask 'sleipnir'
 cask 'chromium'
-cask 'github'
+#cask 'github'
 
 # Developer tools
 
@@ -87,7 +87,7 @@ cask 'sublime-text'
 cask 'jetbrains-toolbox'
 cask 'visual-studio-code'
 cask 'typora'
-cask 'xmind'
+#cask 'xmind'
 
 ## Database client tools
 cask 'dbeaver-community'
@@ -158,7 +158,7 @@ brew 'wakeonlan'
 cask "deepl"
 
 # Cloud Storage
-cask "osxfuse"
+#cask "osxfuse"
 
 # Authentication tools
 cask 'authy'
