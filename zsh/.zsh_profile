@@ -1,8 +1,8 @@
 # Customizing the Command Prompt
 
 ## Display git brach name
-if [ -f ~/.zsh/git-prompt.sh ]; then
-  source ~/.zsh/git-prompt.sh
+if [ -f ~/.git-prompt.sh ]; then
+  source ~/.git-prompt.sh
 fi
 
 # git-completionの読み込み
