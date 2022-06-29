@@ -31,13 +31,23 @@ else
   ln -s `pwd`/git/.gitignore_global ~/.gitignore_global
 fi
 
-echo "Setup ~/.bash_profile"
-backup ~/.bash_profile
-ln -s `pwd`/bash/.bash_profile ~/.bash_profile
+read -p "Enter zsh or bash > " shell_name
 
-echo "Setup ~/.bash_profile"
-backup ~/.bash_aliases
-ln -s `pwd`/bash/.bash_aliases ~/.bash_aliases
+if [ ${shell_name} = 'zsh' ]; then
+  echo "Setup ~/.${shell_name}rc"
+  backup ~/.${shell_name}rc
+  ln -s `pwd`/${shell_name}/.${shell_name}rc ~/.${shell_name}rc
+elif [ ${shell_name} = 'bash' ]; then
+  :
+fi
+
+echo "Setup ~/.${shell_name}_profile"
+backup ~/.${shell_name}_profile
+ln -s `pwd`/${shell_name}/.${shell_name}_profile ~/.${shell_name}_profile
+
+echo "Setup ~/.${shell_name}_aliases"
+backup ~/.${shell_name}_aliases
+ln -s `pwd`/${shell_name}/.${shell_name}_aliases ~/.${shell_name}_aliases
 
 # Setup brew
 if [ ! -f /usr/local/bin/brew ]; then
@@ -78,6 +88,6 @@ ln -s `pwd`/tmux/.tmux.conf ~/.tmux.conf
 
 # rustup が無ければインストール
 if !(type rustup > /dev/null 2>&1); then
-	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 fi
 
