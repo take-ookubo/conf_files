@@ -24,9 +24,9 @@ else
   backup ~/.gitignore_global
 
   cp `pwd`/git/.gitconfig ~/.gitconfig
-  sed -i ""  "s|xxxx yyyy|${user}|g" ~/.gitconfig
-  sed -i ""  "s|xxxxx@example.com|${email}|g" ~/.gitconfig
-  sed -i ""  "s|XXXXXX_TOKEN_EXAMPLE|${github_token}|g" ~/.gitconfig
+  sed -i "s|xxxx yyyy|${user}|g" ~/.gitconfig
+  sed -i "s|xxxxx@example.com|${email}|g" ~/.gitconfig
+  sed -i "s|XXXXXX_TOKEN_EXAMPLE|${github_token}|g" ~/.gitconfig
   ln -s `pwd`/git/.git-prompt.sh ~/.git-prompt.sh
   ln -s `pwd`/git/.gitignore_global ~/.gitignore_global
 fi
