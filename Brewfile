@@ -23,14 +23,11 @@ brew 'neomutt'
 ## Remote client tools
 cask 'teamviewer'
 cask 'parallels-client'
-cask 'vnc-viewer'
 
 ## Communication tools
 
 cask 'slack'
-cask 'chatwork'
 cask 'zoom'
-cask 'discord'
 mas 'LINE', id: 539883307
 
 # Web browseres
@@ -39,7 +36,7 @@ cask 'google-chrome'
 cask 'brave-browser'
 cask 'vivaldi'
 cask 'firefox'
-cask 'waterfox-current'
+cask 'waterfox'
 cask 'coccoc'
 cask 'microsoft-edge'
 cask 'brave-browser'
@@ -79,14 +76,12 @@ brew 'direnv'
 cask 'adoptopenjdk8'
 
 cask 'sourcetree'
-cask 'beyond-compare'
 
 # Edidor tools
 
 cask 'sublime-text'
 cask 'jetbrains-toolbox'
 cask 'visual-studio-code'
-cask 'typora'
 #cask 'xmind'
 
 ## Database client tools
@@ -95,9 +90,6 @@ cask 'sequel-ace'
 brew 'libpq'
 
 ## Virtual Machine tools
-
-cask 'virtualbox'
-cask 'vagrant'
 
 cask 'docker'
 # brew 'docker-compose'

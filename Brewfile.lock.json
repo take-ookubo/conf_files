@@ -311,6 +311,18 @@
         "options": {
           "full_name": "authy"
         }
+      },
+      "waterfox": {
+        "version": "4.1.3.1",
+        "options": {
+          "full_name": "waterfox"
+        }
+      },
+      "handbrake": {
+        "version": "1.5.1",
+        "options": {
+          "full_name": "handbrake"
+        }
       }
     },
     "mas": {
@@ -995,11 +1007,6 @@
               "url": "https://ghcr.io/v2/homebrew/core/pstree/blobs/sha256:624458274db8e826c170121061ad25547c5a245788c8108bd2bf0af4a3678dea",
               "sha256": "624458274db8e826c170121061ad25547c5a245788c8108bd2bf0af4a3678dea"
             },
-            "yosemite": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/pstree/blobs/sha256:127b605bf4b20cbddf63f875bd15f78ad5fc31eaebb57d9ce2051a3b856a8bd5",
-              "sha256": "127b605bf4b20cbddf63f875bd15f78ad5fc31eaebb57d9ce2051a3b856a8bd5"
-            },
             "x86_64_linux": {
               "cellar": ":any_skip_relocation",
               "url": "https://ghcr.io/v2/homebrew/core/pstree/blobs/sha256:155f6be24263c4a454735605462b6281af661d1dd928621fa94a7d287c5af90a",
@@ -1537,11 +1544,11 @@
         "macOS": "11.6"
       },
       "monterey": {
-        "HOMEBREW_VERSION": "3.4.11-163-g5585ec9",
-        "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "1e76f002faeff50f3b8e9cc4d1ed1380d3eee9f9",
+        "HOMEBREW_VERSION": "3.5.3",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "21455fffe002a7bfd1924bb02c6f1d9fef88547c",
         "CLT": "13.4.0.0.1.1651278267",
-        "Xcode": "13.4",
+        "Xcode": "13.4.1",
         "macOS": "12.4"
       }
     }
