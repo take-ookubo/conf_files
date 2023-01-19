@@ -2,6 +2,7 @@
     name = xxxx yyyy
     email = xxxxx@example.com
 [core]
+    editor = vim
     excludesfile = ~/.gitignore_global
     precomposeunicode = true
     # 日本語のファイル名が文字化けしない
